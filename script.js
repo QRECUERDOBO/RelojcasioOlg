@@ -127,7 +127,7 @@ function openModal(model, color, price, images, details) {
 
     // Mensaje para WhatsApp
     const message = encodeURIComponent(`Me gusta este modelo y color "${model} - ${color}" ¿Cómo puedo adquirirlo?`);
-    whatsappButton.href = `https://wa.me/59172645173?text=${message}`;
+    whatsappButton.href = `https://wa.me/59175363689?text=${message}`;
 
     modal.style.display = 'block';
     document.body.style.overflow = 'hidden';
