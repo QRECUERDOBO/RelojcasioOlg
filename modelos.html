@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modelos Casio - Tu Mejor Estilo</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <header class="models-header">
+        <a href="index.html" class="back-button">Volver</a>
+        <h1>COLECCIÓN CASIO</h1>
+    </header>
+
+<!-- Model Selection -->
+<div class="model-selector">
+    <button class="model-button active" data-model="CASIO">CASIO CLASSIC</button>
+    <button class="model-button" data-model="UNISEX">CASIO UNISEX</button>
+    <button class="model-button" data-model="CASIO REDONDO">CASIO REDONDO</button>
+    <button class="model-button" data-model="CASIO NUEVO">CASIO NUEVO</button>
+    <button class="model-button" data-model="RELOJ_OFERTA_WOMEN">RELOJ OFERTA</button>
+
+</div>
+
+
+    <!-- Products Grid -->
+    <div class="products-grid" id="productsGrid">
+        <!-- Los productos se cargarán dinámicamente con JavaScript -->
+    </div>
+
+    <!-- Product Modal -->
+    <div id="productModal" class="modal">
+        <div class="modal-content">
+            <span class="close-button">&times;</span>
+            <div class="modal-images">
+                <button id="prevImage" class="carousel-button">&#10094;</button>
+                <img id="modalImage" src="" alt="Producto" class="modal-image">
+                <button id="nextImage" class="carousel-button">&#10095;</button>
+            </div>
+            <div class="modal-info">
+                <h2></h2>
+                <p class="price"></p>
+                <p class="details"></p>
+                <a href="#" class="whatsapp-button" target="_blank">
+                    QUIERO COMPRARLO
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Scripts -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
